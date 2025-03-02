@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>responsi</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Links & Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000; /* Negro */
+            color: #FFFFFF; /* Blanco */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        nav {
+            background: #006400; /* Verde oscuro */
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+        }
+        nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #008000; /* Verde más claro */
+        }
+        .container {
+            display: flex;
+            justify-content: flex-start;
+            width: 90%;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+        }
+        section {
+            margin: 20px;
+            padding: 35px;
+            background: #006400; /* Verde oscuro */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            color: #FFFFFF; /* Blanco */
+            text-align: center;
+            max-height: 400px;
+            overflow-y: auto;
+            scrollbar-width: thin;
+            scrollbar-color: #008000 #003300;
+        }
+        section::-webkit-scrollbar {
+            width: 8px;
+        }
+        section::-webkit-scrollbar-track {
+            background: #003300;
+            border-radius: 5px;
+        }
+        section::-webkit-scrollbar-thumb {
+            background: #008000;
+            border-radius: 5px;
+        }
+        .wallet-info {
+            background: #008000; /* Verde más claro */
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            text-align: LEFT;
+            color: #FFFFFF;
+            font-weight: bold;
+        }
+        aside {
+            background: #008000; /* Verde más claro */
+            margin: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+            color: black;
+            width: 25%;
+        }
+        .aside-box {
+            background: #006400;
+            color: #FFFFFF;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            text-align: center;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #006400; /* Verde oscuro */
+            color: #FFFFFF;
+            margin-top: 20px;
+            width: 100%;
+        }
+ 
+      
+      .red{
+  
+  display:flex;
+  width:900px;
+  height:430px;
+  
+}
+
+
+.red img{
+  
+  width:0px;
+  flex-grow:1;
+  object-fit:cover;
+  opacity: .8;
+  transition: .5s ease;
+}
+
+.red img:hover{
+  cursor:crosshair;
+  width:300px;
+  opacity:1;
+  filter: contrast(120%);
+  
+}
+
+
+       /* RESPONSIVE DESIGN */
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                align-items: center;
+            }
+            .content {
+                width: 1000%;
+            }
+            aside {
+                width: 90%;
+                margin-top: 20px;
+            }
+            .red img {
+                width: 500px;
+                height: 500px;
+            }
+            .red img:hover {
+                width: 500px;
+                height: 500px;
+            }
+        }
+
+
+      
+      
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/html/">INICIO</a> |
+        <a href="/css/">MENU</a> |
+        <a href="/js/">MINADO</a> |
+        <a href="/jquery/">RETIROS</a>
+    </nav>
+    
+  
+  
+  
+<section p class="red">  
+    <img onclick="location.href='#imagen5'" src="https://esieduc.org/wp-content/uploads/2021/05/Bitcoin-esi-school-of-management-min.jpg" alt="">
+    <img onclick="location.href='#imagen6'" src="https://coinary.com/wp-content/uploads/2023/04/shiba-inu-coin-1024x627.jpg" alt="">
+    <img onclick="location.href='#imagen9'" src="https://www.esic.edu/sites/default/files/styles/full/public/rethink/544d3ca8-moneda-ethereum.jpg?itok=cncHFz70" alt="">
+    <img onclick="location.href='#imagen7'" src="https://cimg.co/wp-content/uploads/sites/12/2024/11/29124505/1732884305-proyecto-de-criptomonedas_optimized.jpg" alt="">
+    <img onclick="location.href='#imagen8'" src="https://img.capital.com/imgs/articles/1200x627x1/shutterstock_2236802793_1.jpg" alt="">
+    <img onclick="location.href='#imagen2'" src="https://theafricalogistics.com/wp-content/uploads/2024/12/PEPE-Coin-1068x610.webp" alt="">
+    <img onclick="location.href='#imagen10'"src="https://www.cripto247.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MjA3MjQzMTkxODQ0MzQ5Mzk2/op-eth.jpg" alt="">
+  
+    <img onclick="location.href='#imagen3'" src="https://i0.wp.com/criptotendencia.com/wp-content/uploads/2021/04/Analisis-y-pronostico-de-Litecoin.jpg?fit=1000%2C646" alt="">  
+      <img onclick="location.href='#imagen1'"src="https://www.lapatria.com/sites/default/files/styles/opengraph_1200x630/public/noticia/2023-06/USDT-Que%CC%81-es-Tether-y-co%CC%81mo-funciona-esta-criptomoneda.jpg?itok=E9i3oimZ" alt="">  
+      <img onclick="location.href='#imagen4'" src="https://cdn.decrypt.co/wp-content/uploads/2023/06/bitcoin-cash-bch-logo-on-smartphone-gID_7.jpg" alt="">  
+</section>
+
+  
+  
+    <div class="container">
+        <div class="content">
+            <section id="imagen1">
+                <h1>USDT(TRC-20)</h1>
+                <img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/CCCCCCC.PNG" alt="Imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+              
+              
+              
+                <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> USDT: <br> TCAgtcQNCecCRn5fV7ZrMa5euFzSyzPUu5</div>
+ 
+            </section>
+            
+            <section id="imagen2">
+<h1>PEPE</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/CCCC.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> PEPE: <br> 0x181C1b89c87a0C3b6d048bD482FeC6229cBB448D</div>
+            </section>
+          
+            <section id="imagen3">
+<h1>LITENCOIN</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/LITENCOIN.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+ <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> LTC: <br> ltc1qlhpqxvp4saw2mqu7zaw0e7355vmhk4a754gk86</div>
+            </section>
+          
+                      <section id="imagen4">
+<h1>BITCOIN CASH</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/BCH.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> BHC: <br> bitcoincash:qr7uyqesxkr4etvrnct4el86xj3nw76hhc6q0axffx</div>
+            </section>
+          
+                      <section id="imagen5">
+<h1>BITCOIN</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/BITCOIN.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> BTC: <br> bc1q4h3vvpyeak6s3q3ut9ynky4a97nutlpwdn6uvj</div>
+            </section>
+          
+                      <section id="imagen6">
+<h1>SHIBA</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/SIBA.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> SHB: <br> 0x181C1b89c87a0C3b6d048bD482FeC6229cBB448D</div>
+            </section>
+          
+                      <section id="imagen7">
+<h1>DOGECOIN</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/DOG.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> DOGE: <br> DUGqv1icyKgQmaiWkuAZDwEJCqw74xSRmJ</div>
+            </section>
+          
+                      <section id="imagen8">
+<h1>XRP</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/XRP.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> XRP: <br> rwyQp3eC5j6AumcptZhfmiXAykpeswZKeJ <br><br> TAG :<br>1276177</div>
+            </section>
+          
+                      <section id="imagen9">
+<h1>ETHEREUM</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/ETHERUM.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> ETH: <br> 0x181C1b89c87a0C3b6d048bD482FeC6229cBB448D</div>
+            </section>
+          
+                      <section id="imagen10">
+<h1>ETHEREUM CLASSIC</h1>
+<img src="https://raw.githubusercontent.com/welding30001994/IMAGENES-CC/refs/heads/main/ETH.PNG" alt="Otra imagen relacionada" style="width:100%; max-width:600px; border-radius:5px;">
+  <div class="wallet-info">C WALLET ID : <br> 59448889 <br><br> ETC: <br> 0x181C1b89c87a0C3b6d048bD482FeC6229cBB448D</div>
+            </section>
+          
+          
+        </div>
+        
+        <aside class="asd" >
+            <h4>Imágenes</h4>
+            <div class="aside-box" onclick="location.href='#imagen1'">USDT</div>
+            <div class="aside-box" onclick="location.href='#imagen2'">PEPE</div>
+            <div class="aside-box" onclick="location.href='#imagen3'">LITENCOIN</div>
+            <div class="aside-box" onclick="location.href='#imagen4'">BITCOIN CASH</div>
+            <div class="aside-box" onclick="location.href='#imagen5'">BITCOIN</div>
+            <div class="aside-box" onclick="location.href='#imagen6'">SHIBA</div>
+            <div class="aside-box" onclick="location.href='#imagen7'">DOGECOIN</div>
+            <div class="aside-box" onclick="location.href='#imagen8'">XRP</div>
+            <div class="aside-box" onclick="location.href='#imagen9'">ETHERUM</div>
+            <div class="aside-box" onclick="location.href='#imagen10'">CLASSIC</div>
+         
+          
+          
+          
+        </aside>
+    </div>
+    
+    <footer>
+        <p>Author: Hege Refsnes</p>
+        <p><a href="mailto:hege@example.com" style="color: #FFFFFF;">hege@example.com</a></p>
+    </footer>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
